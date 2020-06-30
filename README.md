@@ -2,9 +2,9 @@
 
 Testing use of Prisma and Heroku PgBouncer buildpack.
 
-1. Set the env var `DATABASE_URL` to a publicly accessible Postgres database.
+1. Set the env var `DATABASE_URL` to a publicly accessible Postgres database. (`heroku config:set DATABASE_URL=<value>`)
 
-2. Set the env var `DEBUG=*` for better logs from Prisma client
+2. Set the env var `DEBUG=*` for better logs from Prisma client (`heroku config:set DEBUG=*`)
 
 3. Deploy to Heroku using
 
